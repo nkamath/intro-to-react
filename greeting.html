@@ -20,22 +20,8 @@
            }
 
 
-           class Question extends React.Component {
-                render() {
-                  return (
-                    <div>
-                      <h3>How are you today?</h3>
-                    </div>
-                  );
-                }
-              }
-
               ReactDOM.render(
-                <fragment>
-                  <Greeting />
-                  <Question />
-                </fragment>,
-                document.getElementById('app')
+                <Greeting />, document.getElementById('app')
               );
      </script>
   </body>
